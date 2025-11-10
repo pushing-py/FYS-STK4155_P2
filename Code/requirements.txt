@@ -1,0 +1,10 @@
+Software requirements
+
+All code in this project was written in Python 3.10. The experiments rely on standard scientific computing libraries. The following external Python packages were used:
+- numpy and pandas for numerical computation and data handling
+- matplotlib and seaborn for visualisation
+- scikit-learn for data splitting and general utility functions
+- tqdm for progress bar visualisation during training loops
+- scikit-plot for plotting classification metrics (e.g. confusion matrices)
+- torch for building and training neural networks
+- six.moves.urllib for downloading the Quick, Draw! data using the API script
